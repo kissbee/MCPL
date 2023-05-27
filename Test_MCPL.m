@@ -1,17 +1,17 @@
 function  Test_MCPL(dataname, X, Y )
-% Input£º     X£ºdata matrix
-%             Y£ºtruth label
-% Output:     result£ºclustering result
+% InputÂ£Âº     XÂ£Âºdata matrix
+%             YÂ£Âºtruth label
+% Output:     resultÂ£Âºclustering result
 
-% CESC	5	50  500  5  0.1  0.0001				
+% CESC	        5	50  500  5  0.1  0.0001				
 % HW2sources	24	100  100  1  0.1  100				
-% MSRC_v1	15	0.005  100  50  0.1  5				
-% MSRC	8	1000  1000  0.05  0.1  0.0005  				
+% MSRC_v1	    15	0.005  100  50  0.1  5				
+% MSRC	        8	1000  1000  0.05  0.1  0.0005  				
 % Prokaryotic	35	5  50  1  50  5				
-% Reuters	5	1000  10  0.001  1  0.0001 				
+% Reuters	    5	1000  10  0.001  1  0.0001 				
 % WikipediaArticles	99	0.5  10  0.05  1  1				
-% Youtube	5	5000  100  0.0005  0.5  0.00005				
-% YaleB	6	0.0005  1  0.0001  100  0.00005				
+% Youtube	    5	5000  100  0.0005  0.5  0.00005				
+% YaleB	        6	0.0005  1  0.0001  100  0.00005				
 
 k = 8;
 alpha=1000;
